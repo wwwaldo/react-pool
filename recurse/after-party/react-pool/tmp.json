@@ -1,0 +1,27 @@
+{
+  "name": "react-pool",
+  "version": "1.0.0",
+  "description": "2d Pool game in react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/caroline-lin/react-pool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caroline-lin/react-pool/issues"
+  },
+  "homepage": "https://github.com/caroline-lin/react-pool#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "flow-bin": "^0.80.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {}
+}
