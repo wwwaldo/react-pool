@@ -17,17 +17,24 @@
   },
   "homepage": "https://github.com/caroline-lin/react-pool#readme",
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.2",
-    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
     "flow-bin": "^0.80.0",
     "flow-typed": "^2.5.1",
-    "jest": "^23.5.0",
+    "jest": "^23.6.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
 }
