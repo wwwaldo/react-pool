@@ -7,9 +7,9 @@ export class Index extends React.Component<{}> {
   render() {
     return (
       <div>
-        <p>Hello world??</p>
+        <p>Hello world?</p>
         <svg>
-          <r />
+          <rect x="0" y="0" width="100" height="100" />
         </svg>
       </div>
     );

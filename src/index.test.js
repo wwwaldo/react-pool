@@ -15,7 +15,7 @@ describe("Index", () => {
 
   it("shows an SVG rectangle", () => {
     const index = mount(<Index></Index>);
-    expect(index.find('svg r').exists()).toEqual(true);
+    expect(index.find('svg rect').exists()).toEqual(true);
   });
 
 });
