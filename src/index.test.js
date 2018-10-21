@@ -12,8 +12,10 @@ describe("Index", () => {
     const index = mount(<Index></Index>);
     expect(index.text()).toEqual("Hello world?");
   });
-});
 
-it("dummy test", () => {
-  expect(true).toEqual(true);
+  it("shows an SVG rectangle", () => {
+    const index = mount(<Index></Index>);
+    expect(index.find('svg r').exists()).toEqual(true);
+  });
+
 });
